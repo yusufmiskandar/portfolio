@@ -1,0 +1,35 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.jumbotron {
+  padding-top: 8rem;
+  background-color: #e2edff;
+}
+
+nav,
+nav a {
+  color: white;
+  font-size: 12px;
+}
+
+nav a.active {
+  color: #475cfd;
+  font-weight: bold;
+}
+
+nav a.active:hover {
+  color: #475cfd;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+section#gallery {
+  background-color: #e2edff;
+}
+
+section#moodle {
+  background-color: #e2edff;
+}
