@@ -1,10 +1,36 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
 }
 
 .jumbotron {
-  padding-top: 8rem;
-  background-color: #e2edff;
+  text-align: center;
+  padding-top: 10rem;
+  /* padding-bottom: 10rem; */
+  text-shadow: 2px 2px #000;
+}
+
+.lead {
+  color: white;
+  font-weight: bold;
+}
+
+.bg-cover {
+  background-size: cover;
+  color: white;
+  background-position: bottom right;
+  position: relative;
+  z-index: -2;
+}
+
+.overlay {
+  background-color: #000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
 }
 
 nav,
@@ -26,10 +52,32 @@ section {
   padding-top: 5rem;
 }
 
-section#gallery {
-  background-color: #e2edff;
+.main p {
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 20px;
+  color: black;
 }
 
-section#moodle {
-  background-color: #e2edff;
+.main h2 {
+  color: black;
+  font-weight: bold;
+}
+
+.main button {
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+}
+
+.card-body {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-img {
+  position: absolute;
+  bottom: -52px;
+  right: -60px;
+  width: 45%;
 }
