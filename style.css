@@ -53,8 +53,6 @@ section {
 }
 
 .main p {
-  font-size: 20px;
-  font-weight: 100;
   margin-top: 20px;
   color: black;
 }
@@ -63,10 +61,9 @@ section {
   color: black;
   font-weight: bold;
 }
-
-.main button {
-  background-color: white;
-  color: black;
+.main a {
+  background-color: black;
+  color: white;
   margin-top: 20px;
 }
 
