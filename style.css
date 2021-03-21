@@ -54,15 +54,15 @@ section {
 
 .main p {
   margin-top: 20px;
-  color: black;
+  color: #212529;
 }
 
 .main h2 {
-  color: black;
+  color: #212529;
   font-weight: bold;
 }
 .main a {
-  background-color: black;
+  background-color: #212529;
   color: white;
   margin-top: 20px;
 }
@@ -77,4 +77,9 @@ section {
   bottom: -52px;
   right: -60px;
   width: 45%;
+}
+
+section #send {
+  background-color: #212529;
+  color: white;
 }
