@@ -74,9 +74,9 @@ section {
 
 .bg-img {
   position: absolute;
-  bottom: -52px;
-  right: -60px;
-  width: 45%;
+  bottom: 0px;
+  right: 0px;
+  width: 35%;
 }
 
 section #send {
