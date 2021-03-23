@@ -39,32 +39,60 @@ nav a {
   font-size: 12px;
 }
 
-nav a.active {
+nav a.nav-link:active {
   color: #475cfd;
   font-weight: bold;
 }
 
-nav a.active:hover {
+nav a.nav-link:hover {
   color: #475cfd;
 }
 
+nav a.nav-link:selected {
+  color: #ffffff;
+  font-weight: bold;
+}
+
 section {
-  padding-top: 5rem;
+  padding-top: 1.5rem;
+}
+
+.card-body h2 {
+  color: #212529;
+  font-weight: bold;
 }
 
 .main p {
   margin-top: 20px;
   color: #212529;
+  word-spacing: 0em;
 }
 
 .main h2 {
   color: #212529;
   font-weight: bold;
 }
-.main a {
+
+.third a {
   background-color: #212529;
   color: white;
   margin-top: 20px;
+  width: auto;
+  height: 37px;
+}
+
+.second a {
+  background-color: white;
+  color: #212529;
+}
+
+.second a:link {
+  text-decoration: none;
+}
+
+.second a:hover {
+  background-color: #212529;
+  color: white;
 }
 
 .card-body {
@@ -76,7 +104,11 @@ section {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  width: 35%;
+  width: 36%;
+}
+
+.carousel-item {
+  text-shadow: 1px 1px #212529;
 }
 
 section #send {
