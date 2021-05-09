@@ -48,11 +48,6 @@ nav a.nav-link:hover {
   color: #475cfd;
 }
 
-nav a.nav-link:selected {
-  color: #ffffff;
-  font-weight: bold;
-}
-
 section {
   padding-top: 1.5rem;
 }
